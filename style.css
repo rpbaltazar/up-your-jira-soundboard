@@ -10,11 +10,16 @@ body,html {
   font-family: sans-serif;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .row {
   display: flex;
-  flex: 1;
   flex-wrap: wrap;
-  min-height: 200px;
   align-items: baseline;
   justify-content: center;
 }
